@@ -23,8 +23,7 @@ function Home() {
 
           {/* Description */}
           <p className="text-gray-300 leading-relaxed text-[clamp(1rem,2.5vw,1.125rem)] max-w-[min(100%,500px)] mx-auto sm:mx-0">
-            Backend-focused Software Engineer with 1+ year of experience building scalable,
-            high-performance applications using .NET Core and PostgreSQL.
+            Backend-focused Software Engineer with hands-on experience building scalable REST APIs and multi-tenant HRMS systems using .NET Core, PostgreSQL, and Azure DevOps. Currently expanding into Data Engineering — designing ETL pipelines and optimizing databases for analytical workloads.
           </p>
 
           {/* Icons */}
