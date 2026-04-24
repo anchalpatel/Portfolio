@@ -1,0 +1,40 @@
+import { motion } from "framer-motion";
+
+function SkillTabs({ categories, active, setActive }) {
+  return (
+    <div className="mb-8 flex justify-center overflow-x-auto">
+      <div className="relative flex bg-white/5 border border-white/10 rounded-full p-1">
+
+        {categories.map((cat) => (
+          <motion.button
+            key={cat}
+            onClick={() => setActive(cat)}
+            whileTap={{ scale: 0.95 }}
+            className="relative px-4 py-2 text-sm z-10 whitespace-nowrap"
+          >
+            {/* Sliding pill */}
+            {active === cat && (
+              <motion.div
+                layoutId="active-pill"
+                className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500/20 to-purple-500/20 border border-blue-500/30"
+                transition={{ type: "spring", stiffness: 300, damping: 25 }}
+              />
+            )}
+
+            {/* Text */}
+            <span
+              className={`relative transition-colors duration-300 ${
+                active === cat ? "text-white" : "text-gray-400"
+              }`}
+            >
+              {cat}
+            </span>
+          </motion.button>
+        ))}
+
+      </div>
+    </div>
+  );
+}
+
+export default SkillTabs;
