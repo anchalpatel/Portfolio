@@ -1,5 +1,4 @@
-import { motion } from "framer-motion";
-
+import { motion } from "motion/react";
 function SkillTabs({ categories, active, setActive }) {
   return (
     <div className="mb-8 flex justify-center overflow-x-auto">
