@@ -1,5 +1,5 @@
 import { FaUser, FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
-import { personalInfo, hobbies, languages, education } from "../Constants/AboutData";
+import { personalInfo, languages, education } from "../Constants/AboutData";
 
 const iconMap = {
   Name: <FaUser className="text-blue-400 shrink-0" />,
