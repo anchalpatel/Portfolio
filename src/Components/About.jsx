@@ -47,14 +47,14 @@ function About() {
             </div>
 
             {/* HOBBIES */}
-          <div className="p-6 rounded-2xl border border-white/10 hover:scale-[1.02] transition-all duration-300">
+          {/* <div className="p-6 rounded-2xl border border-white/10 hover:scale-[1.02] transition-all duration-300">
               <h3 className="mb-3 font-semibold text-white">Hobbies</h3>
               <div className="flex flex-wrap gap-2">
                 {hobbies.map((item, i) => (
                   <span key={i} className="px-3 py-1 text-sm rounded-full bg-blue-500/20 text-blue-300">{item}</span>
                 ))}
               </div>
-            </div>
+            </div> */}
 
             {/* LANGUAGES */}
             <div className="p-6 rounded-2xl border border-white/10 hover:scale-[1.02] transition-all duration-300">

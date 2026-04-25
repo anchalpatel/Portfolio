@@ -9,7 +9,7 @@ import SectionWrapper from '../Components/SectionWrapper';
 
 function Home() {
   return (
-    <div className="flex flex-col gap-16 pt-32 pb-16">
+    <div className="flex flex-col pt-32 pb-16">
 
       <SectionWrapper id="home">
         <Hero />
