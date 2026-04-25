@@ -4,7 +4,7 @@ import { certificateData } from "../Constants/CertificateData";
 function Certificates() {
   return (
     <section id="certificates" className="pt-6 pb-12">
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4">
 
         {/* Heading */}
         <h2 className="text-[clamp(1.8rem,4vw,2.5rem)] font-bold mb-10 text-left">
@@ -13,7 +13,6 @@ function Certificates() {
             Certificates
           </span>
         </h2>
-        
         {/* Grid */}
         <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
           {certificateData.map((cert, index) => (

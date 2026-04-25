@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 function Contact() {
   return (
     <section id="contact" className="pt-6 pb-12">
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4">
 
         {/* Heading */}
         <h2 className="text-[clamp(1.8rem,4vw,2.5rem)] font-bold mb-10">
