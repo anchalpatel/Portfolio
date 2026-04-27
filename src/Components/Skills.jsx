@@ -40,7 +40,7 @@ function Skills() {
 
   return (
     <section id="skills" className="pt-6 pb-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-10 md:px-8">
 
         {/* Heading */}
         <h2 className="text-[clamp(1.8rem,4vw,2.5rem)] font-bold mb-8">
